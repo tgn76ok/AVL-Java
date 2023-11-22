@@ -82,7 +82,6 @@ public class Main {
                 default:
                     break;
             }
-            arvore.clearConsole();
             System.out.println("-----------------------------");
         }
     }
