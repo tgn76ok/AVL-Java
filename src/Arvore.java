@@ -1,3 +1,6 @@
+import java.io.IOException;
+import java.util.Scanner;
+
 public class Arvore {
     Elemento elemento;
     Arvore esquerda;
@@ -344,8 +347,9 @@ public class Arvore {
         return str;
     }
 
+ 
     public String toString() {
-        return "[" + this.elemento.getRGM() + "] (" + this.balanicar + ")";
+        return "[" + this.elemento.getNome() + "] (" + this.balanicar + ")";
     }
     // get e set
 
@@ -383,4 +387,3 @@ public class Arvore {
 
 }
 
-/* falta buscar e balanicar essa arvore */
